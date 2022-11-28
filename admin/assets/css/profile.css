@@ -1,0 +1,22 @@
+.profile {
+  padding-top: 6rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.profile img {
+  margin-bottom: 1rem;
+  width: 250px;
+  height: auto;
+  border: 3px solid var(--zinc-300);
+  border-radius: 50%;
+}
+
+.profile p {
+  margin-bottom: 1rem;
+}

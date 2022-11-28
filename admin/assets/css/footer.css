@@ -1,0 +1,8 @@
+footer {
+  font-weight: 600;
+  padding: 20px;
+  background-color: var(--teal-200);
+  font-size: var(--large-size);
+  color: var(--zinc-900);
+  text-align: center;
+}

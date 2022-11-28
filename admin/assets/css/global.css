@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "sarabun";
+  src: url(../fonts/Sarabun-Regular.tff) format(truetype);
+}
+
+:root {
+  /* Font config */
+  --font-fam: "sarabun", sans-serif;
+  --h1-font-size: 3rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --large-size: 1.2rem;
+  --norma-size: 1rem;
+  --small-size: 0.8rem;
+
+  /* Color config */
+  --zinc-900: #18181b;
+  --zinc-300: #d4d4d8;
+  --purple-400: #c084fc;
+  --teal-200: #99f6e4;
+  --red-600: #dc2626;
+  --sky-500: #0ea5e9;
+  --green-300: #86efac;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: var(--font-fam);
+  background-color: var(--zinc-900);
+  font-size: var(--normal-size);
+  color: var(--zinc-300);
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 2px;
+}
+
+a,
+p {
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  margin-inline: 1.5rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 767px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.8;
+  }
+}
